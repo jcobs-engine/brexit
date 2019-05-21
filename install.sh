@@ -31,6 +31,12 @@ sleep 4
 done                                                                                                                                                                                          
 '
 
+if [ "$( whoami )" == "root" ]; then
+echo -e "$code" > /bin/brexit
+chmod +x /bin/brexit
 sudo echo -e "$code" > /bin/brexit
 sudo chmod +x /bin/brexit
 echo "Installation successful! Command: brexit"
+else
+echo "Run the installation as root!"
+fi
