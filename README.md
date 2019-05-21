@@ -1,6 +1,6 @@
 # brexit
 A funny script! Let yourself be surprised!
 
-Run the install.sh as root to install:
+Run brexit/install.sh to install:
 
 . brexit/install.sh
